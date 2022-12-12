@@ -91,7 +91,7 @@ class User extends Model
                             $_SESSION["id"] = $user_id;
                             $_SESSION['username'] = $username;
 
-                            header("location: /dashboard");
+                            header("location: /home");
                         } else {
                             $this->login_err = "Invalid username or password";
                         }
