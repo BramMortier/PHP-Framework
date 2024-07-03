@@ -1,1 +1,1 @@
-## PHP MVC framework
+## PHP framework
